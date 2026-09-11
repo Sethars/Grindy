@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grindy - Find Matches</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="series.css">
+    <script src="series.js" defer></script>
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon"><i class="ri-book-open-line"></i></div>
+                <span>Grindy</span>
+            </div>
+
+            <nav class="menu">
+                <a href="series.html" class="menu-item">
+                    <i class="ri-home-5-line"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="find-matches.html" class="menu-item active">
+                    <i class="ri-user-search-line"></i>
+                    <span>Find Matches</span>
+                </a>
+                <a href="study-groups.html" class="menu-item">
+                    <i class="ri-team-line"></i>
+                    <span>Study Groups</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="ri-graduation-cap-line"></i>
+                    <span>Peer Tutors</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="ri-calendar-line"></i>
+                    <span>Schedule</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <a href="#" class="menu-item">
+                    <i class="ri-settings-3-line"></i>
+                    <span>Settings</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="ri-question-line"></i>
+                    <span>Help Center</span>
+                </a>
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="header">
+                <div class="header-left">
+                    <button class="mobile-menu"><i class="ri-menu-line"></i></button>
+                    <div class="mobile-logo">
+                        <div class="logo-icon"><i class="ri-book-open-line"></i></div>
+                        <span>Grindy</span>
+                    </div>
+                    <div class="search-box">
+                        <i class="ri-search-line"></i>
+                        <input type="text" placeholder="Search groups, tutors, or subjects...">
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <button class="notification-btn">
+                        <i class="ri-notification-3-line"></i>
+                        <span class="notification-dot"></span>
+                    </button>
+
+                    <div class="profile">
+                        <div class="avatar">H</div>
+                        <div class="profile-info">
+                            <span class="name">Haris</span>
+                            <span class="role">Student</span>
+                        </div>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                </div>
+            </header>
+
+            <section class="content">
+                <div class="page-banner">
+                    <h1>Find your study partner</h1>
+                    <p>Discover learners who match your pace, goals, and study habits.</p>
+                </div>
+
+                <div class="section-grid">
+                    <section class="section">
+                        <div class="section-header">
+                            <div>
+                                <h2>Recommended Matches</h2>
+                                <p>Sorted by compatibility and active study availability</p>
+                            </div>
+                        </div>
+
+                        <div class="match-deck">
+                            <article class="swipe-match-card">
+                                <div class="match-card-header">
+                                    <div class="match-profile">
+                                        <div class="user-avatar">A</div>
+                                        <div>
+                                            <h3>Ahmad Rizky</h3>
+                                            <span>Computer Science</span>
+                                        </div>
+                                    </div>
+                                    <div class="match-percent">92%</div>
+                                </div>
+
+                                <div class="subject"><i class="ri-book-2-line"></i>Data Structures</div>
+                                <div class="match-tags">
+                                    <span><i class="ri-time-line"></i>Evening</span>
+                                    <span><i class="ri-map-pin-line"></i>Campus</span>
+                                </div>
+
+                                <div class="compatibility">
+                                    <div class="compatibility-header">
+                                        <span>Compatibility</span>
+                                        <span>Excellent Match</span>
+                                    </div>
+                                    <div class="progress"><div class="progress-bar" style="width: 92%"></div></div>
+                                </div>
+
+                                <div class="match-card-actions">
+                                    <button class="pass-btn" type="button">Pass</button>
+                                    <button class="like-btn" type="button">Like &amp; Chat</button>
+                                </div>
+                            </article>
+
+                            <article class="swipe-match-card">
+                                <div class="match-card-header">
+                                    <div class="match-profile">
+                                        <div class="user-avatar orange-avatar">S</div>
+                                        <div>
+                                            <h3>Sarah Putri</h3>
+                                            <span>Information Systems</span>
+                                        </div>
+                                    </div>
+                                    <div class="match-percent">88%</div>
+                                </div>
+
+                                <div class="subject"><i class="ri-book-2-line"></i>Database Systems</div>
+                                <div class="match-tags">
+                                    <span><i class="ri-time-line"></i>Afternoon</span>
+                                    <span><i class="ri-map-pin-line"></i>Library</span>
+                                </div>
+
+                                <div class="compatibility">
+                                    <div class="compatibility-header">
+                                        <span>Compatibility</span>
+                                        <span>Great Match</span>
+                                    </div>
+                                    <div class="progress"><div class="progress-bar" style="width: 88%"></div></div>
+                                </div>
+
+                                <div class="match-card-actions">
+                                    <button class="pass-btn" type="button">Pass</button>
+                                    <button class="like-btn" type="button">Like &amp; Chat</button>
+                                </div>
+                            </article>
+
+                            <article class="swipe-match-card">
+                                <div class="match-card-header">
+                                    <div class="match-profile">
+                                        <div class="user-avatar purple-avatar">D</div>
+                                        <div>
+                                            <h3>Dimas Pratama</h3>
+                                            <span>Software Engineering</span>
+                                        </div>
+                                    </div>
+                                    <div class="match-percent">85%</div>
+                                </div>
+
+                                <div class="subject"><i class="ri-book-2-line"></i>Web Development</div>
+                                <div class="match-tags">
+                                    <span><i class="ri-time-line"></i>Morning</span>
+                                    <span><i class="ri-map-pin-line"></i>Online</span>
+                                </div>
+
+                                <div class="compatibility">
+                                    <div class="compatibility-header">
+                                        <span>Compatibility</span>
+                                        <span>Strong Fit</span>
+                                    </div>
+                                    <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
+                                </div>
+
+                                <div class="match-card-actions">
+                                    <button class="pass-btn" type="button">Pass</button>
+                                    <button class="like-btn" type="button">Like &amp; Chat</button>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+
+                    <aside class="side-panel">
+                        <div class="side-card">
+                            <h3>Your preferences</h3>
+                            <ul>
+                                <li><i class="ri-check-line"></i> Evening study sessions</li>
+                                <li><i class="ri-check-line"></i> Campus or online</li>
+                                <li><i class="ri-check-line"></i> Data structures focus</li>
+                            </ul>
+                        </div>
+                        <div class="side-card">
+                            <h3>Match tips</h3>
+                            <ul>
+                                <li><i class="ri-lightbulb-line"></i> Like profiles with aligned study goals.</li>
+                                <li><i class="ri-chat-smile-2-line"></i> Start with a quick intro in chat.</li>
+                                <li><i class="ri-timer-line"></i> Keep sessions short and focused.</li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div>© 2026 Grindy</div>
+                <div class="footer-links">
+                    <a href="series.html">Dashboard</a>
+                    <a href="find-matches.html">Find Matches</a>
+                    <a href="study-groups.html">Study Groups</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

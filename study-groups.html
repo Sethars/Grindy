@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grindy - Study Groups</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="series.css">
+    <script src="series.js" defer></script>
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="logo">
+                <div class="logo-icon"><i class="ri-book-open-line"></i></div>
+                <span>Grindy</span>
+            </div>
+
+            <nav class="menu">
+                <a href="series.html" class="menu-item">
+                    <i class="ri-home-5-line"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="find-matches.html" class="menu-item">
+                    <i class="ri-user-search-line"></i>
+                    <span>Find Matches</span>
+                </a>
+                <a href="study-groups.html" class="menu-item active">
+                    <i class="ri-team-line"></i>
+                    <span>Study Groups</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="ri-graduation-cap-line"></i>
+                    <span>Peer Tutors</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="ri-calendar-line"></i>
+                    <span>Schedule</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <a href="#" class="menu-item">
+                    <i class="ri-settings-3-line"></i>
+                    <span>Settings</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="ri-question-line"></i>
+                    <span>Help Center</span>
+                </a>
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="header">
+                <div class="header-left">
+                    <button class="mobile-menu"><i class="ri-menu-line"></i></button>
+                    <div class="mobile-logo">
+                        <div class="logo-icon"><i class="ri-book-open-line"></i></div>
+                        <span>Grindy</span>
+                    </div>
+                    <div class="search-box">
+                        <i class="ri-search-line"></i>
+                        <input type="text" placeholder="Search groups, tutors, or subjects...">
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    <button class="notification-btn">
+                        <i class="ri-notification-3-line"></i>
+                        <span class="notification-dot"></span>
+                    </button>
+
+                    <div class="profile">
+                        <div class="avatar">H</div>
+                        <div class="profile-info">
+                            <span class="name">Haris</span>
+                            <span class="role">Student</span>
+                        </div>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </div>
+                </div>
+            </header>
+
+            <section class="content">
+                <div class="page-banner">
+                    <h1>Study groups</h1>
+                    <p>Browse active groups and join the ones that best match your study style.</p>
+                </div>
+
+                <section class="section">
+                    <div class="section-header">
+                        <div>
+                            <h2>Available Groups</h2>
+                            <p>Sorted from highest match percentage to lowest</p>
+                        </div>
+                    </div>
+
+                    <div class="group-list">
+                        <div class="group-card" data-match="94">
+                            <div class="group-icon"><i class="ri-code-s-slash-line"></i></div>
+                            <div class="group-info">
+                                <h3>Web Development Squad</h3>
+                                <p>HTML, CSS &amp; JavaScript</p>
+                                <span>12 Members</span>
+                            </div>
+                            <div class="group-match">94%</div>
+                            <button type="button">Join</button>
+                        </div>
+
+                        <div class="group-card" data-match="89">
+                            <div class="group-icon purple"><i class="ri-database-2-line"></i></div>
+                            <div class="group-info">
+                                <h3>Database Study Circle</h3>
+                                <p>MySQL &amp; Database Design</p>
+                                <span>8 Members</span>
+                            </div>
+                            <div class="group-match">89%</div>
+                            <button type="button">Join</button>
+                        </div>
+
+                        <div class="group-card" data-match="91">
+                            <div class="group-icon"><i class="ri-terminal-box-line"></i></div>
+                            <div class="group-info">
+                                <h3>Algorithm Warriors</h3>
+                                <p>Algorithms &amp; Problem Solving</p>
+                                <span>15 Members</span>
+                            </div>
+                            <div class="group-match">91%</div>
+                            <button type="button">Join</button>
+                        </div>
+
+                        <div class="group-card" data-match="82">
+                            <div class="group-icon purple"><i class="ri-pen-nib-line"></i></div>
+                            <div class="group-info">
+                                <h3>Research Sprint Lab</h3>
+                                <p>Academic Writing &amp; Research</p>
+                                <span>10 Members</span>
+                            </div>
+                            <div class="group-match">82%</div>
+                            <button type="button">Join</button>
+                        </div>
+
+                        <div class="group-card" data-match="87">
+                            <div class="group-icon"><i class="ri-rocket-line"></i></div>
+                            <div class="group-info">
+                                <h3>Product Challenge Circle</h3>
+                                <p>Product Thinking &amp; Presentation</p>
+                                <span>7 Members</span>
+                            </div>
+                            <div class="group-match">87%</div>
+                            <button type="button">Join</button>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div>© 2026 Grindy</div>
+                <div class="footer-links">
+                    <a href="series.html">Dashboard</a>
+                    <a href="find-matches.html">Find Matches</a>
+                    <a href="study-groups.html">Study Groups</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
